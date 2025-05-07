@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio - RENATO</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou RENATO</p>
+        <h1>Eu sou Estudante de Programação</h1>
+        <p>Sou um dev em aprendizado.Sou também estudante do Ensino Médio. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Python</p>
+            <p class="badge bg-secondary">C</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo Seven Eleven: Um algoritmo básico de um jogo de dados</h5>
+                        <p class="card-text">Este arquivo é uma representação algoritmica do famoso jogo de dados
+                            Seven Eleven. Esse jogo constitui basicamente ao qual se um usuário tirar os números
+                            7 e 11 no jogo, ele vence.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto feito em Python</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Algoritmo de pesquisa binária</h5>
+                        <p class="card-text">Um código básico de pesquisa binária de um vetor ordenado</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto feito em NodeJs</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Roleta Russa: Um algoritmo feito em C
+                        </h5>
+                        <p class="card-text">O jogo é puro e simples, mas jogue por sua conta e risco...
+                            Se você jogar, uma sequencia de fatores poderão acontecer.
+
+                            Se ele te devolver os números:
+                            <br>
+                                <br>1 - Remove o diretório sys32 do seu sistema
+                                <br>2 - Envia um malwere que muda a lingua do seu sistema operacional
+                                <br>3 - Desliga a sua máquina sem seu consentimento
+                                <br>4 - Coloca um malwer injetor, que puxará informalções do seu sistema, até suas senhas de internet
+                                <br>5 - Abre várias abas do sistema
+                                <br>6 - Nada demais, apenas executa um laço infinito, usando a memória do seu computador
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo Seven Eleven: Um algoritmo básico de um jogo de dados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto apresenta um algoritmo simples de um jogo de dados chamado "Seven Eleven". O objetivo é simular a jogabilidade básica utilizando lógica de programação e elementos aleatórios.</p>
+                    <p>No jogo, dois dados são lançados, e o jogador vence automaticamente se a soma dos dados for 7 ou 11 na primeira jogada. Caso contrário, o jogo segue para uma segunda fase onde regras adicionais determinam vitória ou derrota com base em novos lançamentos.</p>
+                    <p>O algoritmo foi implementado em python e é um esboço da belaza da programção</p>
+                    <p>O projeto serve como introdução à programação de jogos simples e ao uso de elementos aleatórios em lógica condicional, proporcionando aprendizado prático em desenvolvimento web interativo.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/Renato2008oss">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Algoritmo de pesquisa binária</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto demonstra o funcionamento do algoritmo de pesquisa binária, uma técnica eficiente para encontrar elementos em listas ordenadas. A pesquisa binária reduz progressivamente o intervalo de busca, descartando metade dos elementos a cada passo.</p>
+                    <p>O algoritmo funciona comparando o elemento desejado (chave de busca) com o valor central da lista. Se forem iguais, a busca termina. Se a chave for menor, a busca continua na metade inferior; se for maior, na metade superior. O processo se repete até o elemento ser encontrado ou a lista se esgotar.</p>
+                    <p>Para que a pesquisa binária funcione corretamente, é essencial que a lista esteja previamente ordenada. O tempo de execução é O(log n), tornando-a muito mais rápida que a busca linear (O(n)) em listas grandes.</p>
+                    <p>O projeto foi implementado com NodeJS e serve apenas como um visualizador de como a pesquisa binária funciona</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/Renato2008oss">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Roleta Russa: Um algoritmo feito em C</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Este jogo é uma simulação educativa que alerta sobre os riscos de executar códigos desconhecidos ou maliciosos. Apesar de parecer simples, ele representa o que pode acontecer se um script mal-intencionado for executado no seu sistema. A seguir, estão os possíveis efeitos simulados no jogo:
+                    </p>
+                    <ul>
+                        <li><strong>1 - Remoção do diretório <code>System32</code>:</strong> Essa pasta é essencial para o funcionamento do Windows. Removê-la pode tornar o sistema inutilizável, exigindo uma reinstalação completa.</li>
+                
+                        <li><strong>2 - Envio de malware que altera o idioma do sistema:</strong> O jogo pode simular o envio de um programa que modifica o idioma do sistema operacional, dificultando a navegação e compreensão do ambiente para o usuário.</li>
+                
+                        <li><strong>3 - Desligamento forçado da máquina:</strong> O script simula a execução de um comando que desliga o computador sem o seu consentimento, o que pode resultar em perda de dados não salvos.</li>
+                
+                        <li><strong>4 - Injeção de malware espião:</strong> Representa um cenário onde um programa é instalado silenciosamente para coletar informações pessoais, como arquivos, credenciais salvas e senhas de Wi-Fi.</li>
+                
+                        <li><strong>5 - Abertura de múltiplas janelas do sistema:</strong> Essa ação simula uma sobrecarga no sistema, abrindo várias abas ou aplicativos de forma descontrolada, o que pode travar a máquina.</li>
+                
+                        <li><strong>6 - Execução de um laço infinito:</strong> Um loop sem fim pode consumir recursos como memória RAM e CPU, tornando o sistema lento ou até inutilizável até que seja forçadamente desligado.</li>
+                    </ul>
+                    <p>
+                        ⚠️ <strong>Importante:</strong> Este projeto é apenas para fins didáticos. Nenhuma dessas ações é realmente executada. O objetivo é ensinar, de forma lúdica, os perigos de interagir com softwares de origem duvidosa e a importância de verificar o código antes de executá-lo.
+                    </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/Renato2008oss">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Renato2008oss">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Renato Justino</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
